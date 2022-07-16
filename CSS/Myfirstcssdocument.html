@@ -24,7 +24,7 @@
 
       /* Style na naslov */
 
-      a {
+      #p4 {
         color: rgb(240, 227, 233);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
@@ -33,7 +33,7 @@
 
       /* Style na article  */
 
-      p {
+      #p3 {
         color: rgb(247, 235, 74);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
@@ -41,20 +41,26 @@
         text-decoration: underline;
         text-align: center;
       }
-      p1 {
+      #p1 {
         color: rgb(230, 111, 146);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
-        font-weight: bolder;
-        text-decoration: underline;
-        text-align: center;
+
+        text-transform: lowercase;
+        margin-inline: 200px;
       }
-      p2 {
+      #p2 {
         color: rgb(226, 168, 43);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
+        text-transform: capitalize;
       }
+      #p5 {
+        color: rgb(218, 236, 236);
+        font-family: Arial, Helvetica, sans-serif;
 
+        font-variant: small-caps;
+      }
       /* Style na paragraf  */
 
       body {
@@ -73,27 +79,32 @@
     </style>
 
     <h1>Mark Zuckerberg: A Biography of the Facebook Billionaire</h1>
-    <a
-      >Mark Elliot Zuckerberg is an American computer programmer and Internet
+    <a id="p4">
+      Mark Elliot Zuckerberg is an American computer programmer and Internet
       entrepreneur. He is a co-founder of Facebook, and currently operates as
-      its chairman and chief executive officer.
-      <p>
-        His net worth is estimated to be $71.5 billion as of September 2017, and
-        he is ranked by Forbes as the fifth richest person in the world.
-      </p>
-      <p2
-        >Zuckerberg launched Facebook from his Harvard University dormitory room
-        on February 4, 2004. He was assisted by his college roommates and fellow
-        Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and
-        Chris Hughes. The group then introduced Facebook to other college
-        campuses.</p2
-      >
-      <br />
-      <p1>Facebook expanded rapidly, reaching one billion users by 2012. </p1>
-      <br />
+      its chairman and chief executive officer.</a
+    >
+    <p id="p3">
+      His net worth is estimated to be $71.5 billion as of September 2017, and
+      he is ranked by Forbes as the fifth richest person in the world.
+    </p>
+    <p id="p1">
+      Zuckerberg launched Facebook from his Harvard University dormitory room on
+      February 4, 2004. He was assisted by his college roommates and fellow
+      Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and
+      Chris Hughes. The group then introduced Facebook to other college
+      campuses.
+    </p>
+
+    <br />
+    <p id="p2">
+      Facebook expanded rapidly, reaching one billion users by 2012.
+    </p>
+    <br />
+    <p id="p5">
       Meanwhile, Zuckerberg was involved in various legal disputes brought by
       others in the group, who claimed a share of the company based upon their
-      involvement during the development phase of Facebook</a
-    >
+      involvement during the development phase of Facebook.
+    </p>
   </body>
 </html>
