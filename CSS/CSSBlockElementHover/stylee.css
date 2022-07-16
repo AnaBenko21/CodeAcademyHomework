@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(105, 105, 103);
+  position: absolute;
+}
+
+/* Boja na pozadina */
+article {
+  margin: 0%;
+  padding: 0%;
+  width: 200px;
+  float: left;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+/* Dimenzii na site artikli */
+.classWidth:hover {
+  background-color: rgb(255, 0, 157);
+  width: 250px;
+}
+
+.classWidth {
+  background-color: rgb(236, 157, 201);
+  margin: 10px;
+  padding: 38px;
+  float: left;
+  border: 100px;
+}
+
+/* prva kocka */
+.classHeight:hover {
+  background-color: rgb(216, 233, 124);
+  width: 250px;
+  transform: rotate(180deg);
+}
+
+.classHeight {
+  background-color: yellow;
+  overflow: scroll;
+  transition: 3s;
+  margin: 10px;
+  padding: 38px;
+  float: left;
+  border: 100px;
+}
+/* vtora kocka */
+.classLeft:hover {
+  background-color: green;
+  width: 250px;
+}
+.classLeft {
+  background-color: rgb(130, 233, 156);
+
+  margin: 10px;
+  padding: 38px;
+  float: left;
+  border: 100px;
+}
+/* treta kocka */
+
+/* VTORA DOMASNA */
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes boxAnimation {
+  from {
+    transform: translateZ(100px);
+    width: 200px;
+    height: 200px;
+  }
+  to {
+    transform: translateZ(200px);
+    width: 300px;
+    height: 300px;
+  }
+}
+
+div:hover {
+  width: 100px;
+  height: 100px;
+  transform: rotateZ(-80deg);
+  transition: 2s;
+}
+div {
+  float: none;
+  width: 100px;
+  height: 100px;
+}
+
+#spanOne {
+  float: left;
+
+  background-color: rgb(226, 47, 146);
+  width: 100px;
+  height: 100px;
+  animation: rotateAnimation 5s linear infinite;
+}
+
+#spanTwo {
+  float: left;
+
+  background-color: rgb(208, 245, 46);
+  width: 100px;
+  height: 100px;
+  animation: bounce 3s infinite;
+}
+#spanThree:hover {
+  background-color: rgb(20, 194, 238);
+  width: 300px;
+}
+#spanThree {
+  float: left;
+
+  background-color: rgb(35, 161, 21);
+  width: 100px;
+  height: 100px;
+  animation-name: boxAnimation;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  transition-duration: 3s;
+}
+
+#spanFour:hover {
+  background-color: rgb(236, 145, 195);
+  width: 300px;
+}
+
+#spanFour {
+  float: left;
+  background-color: rgb(64, 240, 167);
+  width: 100px;
+  height: 100px;
+
+  animation-duration: 3;
+  animation-delay: 2s;
+  transition-duration: 3s;
+}
