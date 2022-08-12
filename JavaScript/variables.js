@@ -19,7 +19,7 @@ console.log(dayOfBirth, fullNameSum, subtractYearOfBirth, SumYearOfBirth); //Dod
 let higherVariable = dayOfBirth > fullNameSum; //Prvata varijabla dali e pogolema od vtorata varijabla , true ili false
 console.log(higherVariable);
 
-let devideReminder = subtractYearOfBirth % SumYearOfBirth; // % DEVISION REMINDER ILI MODUL ostatokot od podelen zbir
+let devideReminder = subtractYearOfBirth % SumYearOfBirth; // % DEVISION REMINDER ILI MODUL ostatokot od podelen zbir !
 console.log(devideReminder);
 
 let totalOfAll = "I am the "; //Dokolku 5 varijabla e true  i ostatokot od 6 varijabla e pomal od 3 vo 7 varijabla da pisuva light dokolku ne e taka da e darkness
