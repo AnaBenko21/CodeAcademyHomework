@@ -12,5 +12,5 @@ let user = {
 
 console.log(user);
 function myButton() {
-  alert("this is alert");
+  alert(name1);
 }
