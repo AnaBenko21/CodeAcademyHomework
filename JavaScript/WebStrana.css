@@ -1,0 +1,90 @@
+#header {
+  background-color: #f6447fd5;
+  text-align: center;
+  padding: 20px;
+}
+
+#groups {
+  text-align: justify;
+  background-color: #f4c2cc;
+  margin-inline-start: 2px;
+  border-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+#slika {
+  height: 30px;
+  width: 30px;
+}
+#vtoraSlika {
+  height: 30px;
+  width: 30px;
+}
+
+#friends-stories {
+  background-color: rgb(241, 132, 168);
+  margin-left: 208px;
+  margin-right: 324px;
+  margin-top: -200px;
+  display: flex;
+  align-items: flex-start;
+  width: 200 px;
+  height: 200px;
+}
+
+.story-img-wrapper img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50 px;
+}
+article {
+  background-color: #712657;
+  height: 400px;
+  width: 217px;
+  margin-top: 0px;
+}
+
+.article-header {
+  margin-top: -137px;
+  height: 100px;
+  width: 100px;
+  background: rgb(172, 179, 184);
+  margin-left: 633px;
+}
+
+.article-description {
+  text-align: center;
+  text-decoration-color: bold black;
+  background-color: #fc9edb;
+  width: 200px;
+  height: 200px;
+
+  display: grid;
+  align-items: center;
+  margin-top: -333px;
+  margin-left: 636px;
+}
+
+.article-img {
+  background-image: url(/slika.website1.jpg);
+  margin-left: 208px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+.article-details {
+  /* background-color: #fc9edb; */
+  height: 300px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+#write-comment {
+  background-color: #bab5b8;
+  width: 200px;
+  height: 800px;
+  margin-left: 1115px;
+  margin-top: -1004px;
+}

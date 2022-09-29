@@ -3,6 +3,7 @@ function month() {
   let Thirtydays = ["1", "3", "5", "7", "8", "10", "12"];
   let Thirtyonedays = ["4", "6", "9", "11"];
   let February = ["2"];
+
   if (Thirtydays.includes(month)) {
     return 30;
   } else if (Thirtyonedays.includes(month)) {
